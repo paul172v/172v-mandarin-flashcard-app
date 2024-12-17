@@ -1,0 +1,12 @@
+@import "/src/sass/base";
+
+.page {
+  background-color: $background-color-primary;
+  min-height: 100svh;
+  padding: 2rem 0;
+}
+
+.u-col {
+  display: flex;
+  flex-direction: column;
+}
