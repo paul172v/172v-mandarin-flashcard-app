@@ -30,13 +30,11 @@
   }
 
   .word-english {
-    font-size: 1.2rem;
     color: #212529;
     flex: 1.5;
   }
 
   .word-hanzi {
-    font-size: 1.4rem;
     color: #dc3545;
     font-weight: bold;
     flex: 1;
@@ -44,22 +42,15 @@
   }
 
   .word-pinyin {
-    font-size: 1rem;
     color: #007bff;
     flex: 1;
     text-align: center;
   }
 
-  .word-known {
-    font-size: 1rem;
-    font-weight: bold;
-    flex: 0.5;
-    text-align: center;
-    color: #28a745;
-
-    &.false {
-      color: #dc3545;
-    }
+  .word-english,
+  .word-hanzi,
+  .word-pinyin {
+    font-size: 3rem;
   }
 }
 
@@ -74,7 +65,7 @@
   .word-hanzi,
   .word-pinyin,
   .word-known {
-    font-size: 1.1rem;
+    font-size: 2rem;
     color: #495057;
     text-transform: uppercase;
   }

@@ -19,7 +19,6 @@ const KnownWordsList = () => {
         <span className={styles["word-english"]}>English</span>
         <span className={styles["word-hanzi"]}>Hanzi</span>
         <span className={styles["word-pinyin"]}>Pinyin</span>
-        <span className={styles["word-known"]}>Known</span>
       </div>
 
       {/* Word List */}
@@ -30,13 +29,6 @@ const KnownWordsList = () => {
             <span className={styles["word-english"]}>{item.english}</span>
             <span className={styles["word-hanzi"]}>{item.hanzi}</span>
             <span className={styles["word-pinyin"]}>{item.pinyin}</span>
-            <span
-              className={`${styles["word-known"]} ${
-                item.known ? "" : styles["false"]
-              }`}
-            >
-              {item.known ? "true" : "false"}
-            </span>
           </div>
         );
       })}
