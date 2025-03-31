@@ -30,11 +30,13 @@
   }
 
   .word-english {
+    font-size: 1.8rem;
     color: #212529;
     flex: 1.5;
   }
 
   .word-hanzi {
+    font-size: 2.4rem;
     color: #dc3545;
     font-weight: bold;
     flex: 1;
@@ -42,15 +44,22 @@
   }
 
   .word-pinyin {
+    font-size: 1.8rem;
     color: #007bff;
     flex: 1;
     text-align: center;
   }
 
-  .word-english,
-  .word-hanzi,
-  .word-pinyin {
-    font-size: 3rem;
+  .word-known {
+    font-size: 1.8rem;
+    font-weight: bold;
+    flex: 0.5;
+    text-align: center;
+    color: #28a745;
+
+    &.false {
+      color: #dc3545;
+    }
   }
 }
 
