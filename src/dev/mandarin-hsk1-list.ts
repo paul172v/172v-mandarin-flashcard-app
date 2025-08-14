@@ -53,8 +53,8 @@ export const HSK1 = [
   {
     id: 32,
     english: "sweet and sour pork",
-    hanzi: "糖醋里脊",
-    pinyin: "tángcù lǐji",
+    hanzi: "咕噜肉",
+    pinyin: "gūlū ròu",
   },
   { id: 33, english: "bread", hanzi: "面包", pinyin: "miànbāo" },
   { id: 34, english: "roast duck", hanzi: "烤鸭", pinyin: "kǎoyā" },
