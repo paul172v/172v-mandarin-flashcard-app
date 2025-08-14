@@ -13,21 +13,22 @@ function Home() {
     <>
       {/* Header Section */}
       <div className="container bg-light p-5">
-        <h1 className="display-3">
-          172v Mandarin Learning Tool / 汉语学习工具
+        <h1 className="display-5">
+          172v Study App for "Learn Mandarin Chinese with Paul Noble for
+          Beginners - Complete Course"
         </h1>
       </div>
 
       {/* Options Section */}
       <div className="container bg-light mt-5 p-5">
-        <h2 className="display-4">Options / 选项</h2>
+        <h2 className="display-4">Options</h2>
         <div className={classes["u-col"]}>
           {/* Navigation Buttons */}
           <Link to="/hsk1-words-list" className="btn btn-primary mt-5">
-            HSK1 150 Words List
+            Words List
           </Link>
           <Link to="/hsk1-flashcards" className="btn btn-primary mt-3">
-            HSK1 Single Word Flashcards
+            Single Word Flashcards
           </Link>
         </div>
       </div>
